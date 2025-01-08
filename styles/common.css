@@ -38,15 +38,21 @@
 
 .vid_banner{
   background: url("./../images/landing/vid_banner.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .desire_bg{
   background: url("../images/home/aboutusbanner.webp") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .offcanvas {
   transition: transform 1s ease-in-out;
   background: url("./../images/7.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .offcanvas.ofhidden {
@@ -55,16 +61,24 @@
 
 .about-numbers-banner{
   background: url("./../images/Aboutus/second_banner.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .contact-bg{
   background: url("../images/6.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .contact-banner{
   background: url("./../images/1.webp") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .checkout-banner{
   background: url("./../images/CheckOut/banner.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
 }

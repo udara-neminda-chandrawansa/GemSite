@@ -1,6 +1,6 @@
 <nav class="z-10 border-b text-white border-gray-500">
     <ul
-        class="flex w-full justify-between gap-12 max-[992px]:justify-between items-center p-6 uppercase text-sm font-semibold">
+        class="flex w-full justify-between gap-1 max-xl:text-xs max-[992px]:justify-between items-center p-6 uppercase text-sm font-semibold">
         <li class="hidden max-[992px]:flex">
             <button class="scale-150 z-10 h-12 text-white"
                 onclick="document.getElementById('offcanvas').classList.remove('ofhidden'); document.documentElement.classList.add('hide-scrollbar')">
@@ -20,7 +20,7 @@
                 </svg>
             </button>
         </li>
-        <li class="max-[992px]:hidden">
+        <li class="max-[992px]:hidden w-[80%]">
             <ul class="flex gap-12">
                 <li>
                     <a href="index.php" class="flex gap-3 items-center">Home</a>
@@ -32,16 +32,18 @@
                     <a href="#" class="flex gap-3 items-center">Awards</a>
                 </li>
                 <li><a href="ContactUs.php">Contact Us</a></li>
-                <li><a href="ContactUs.php">Important Limitation For GLK Reports</a></li>
+                
             </ul>
         </li>
-        <li class=""><img src="images/glklabweblogo.jpeg" alt="logo" class="h-20 max-sm:h-12"></li>
-        <li class="max-[992px]:hidden">
+        <li class="w-[10%]"><img src="images/glklabweblogo.jpeg" alt="logo" class="h-20 max-sm:h-12 object-contain"></li>
+        <li class="max-[992px]:hidden w-[80%] flex justify-end">
             <ul class="flex items-center gap-12">
                 <li>
                 <a href="tel:+94763630369">Tel: +94 77 769 9933</a>
                 </li>
-                <li>
+                
+                <li><a href="ContactUs.php">Important Limitation For GLK Reports</a></li>
+                <li class="hidden">
                     <!-- <button
                         class="px-4 py-3 border bg-[#b99d75] text-white hover:bg-white hover:text-black transition-all duration-300">
                         <a href="rooms.php">Room Packages</a>

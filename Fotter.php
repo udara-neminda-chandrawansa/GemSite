@@ -1,5 +1,12 @@
+<style>
+    .footer_bg{
+        background: url("images/4.webp") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+</style>
 <!-- Footer Section -->
-<div style="background: url('images/4.webp');" class="relative bg-cover bg-center h-fit">
+<div class="relative bg-cover bg-center h-fit footer_bg">
     <!-- Overlay -->
     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
     <div
