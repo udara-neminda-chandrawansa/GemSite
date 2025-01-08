@@ -1,0 +1,70 @@
+* {
+  font-family: "Jost", serif;
+}
+.landing_banner {
+  background: url("./../images/landing/banner.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.marcellus {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bh-lh {
+  line-height: 100px;
+}
+
+@media not all and (min-width: 768px) {
+  .bh-lh {
+    line-height: 60px;
+  }
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.belle {
+  font-family: "La Belle Aurore", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.vid_banner{
+  background: url("./../images/landing/vid_banner.jpg") no-repeat;
+}
+
+.desire_bg{
+  background: url("../images/home/aboutusbanner.webp") no-repeat;
+}
+
+.offcanvas {
+  transition: transform 1s ease-in-out;
+  background: url("./../images/7.jpg") no-repeat;
+}
+
+.offcanvas.ofhidden {
+  transform: translateX(-100%);
+}
+
+.about-numbers-banner{
+  background: url("./../images/Aboutus/second_banner.jpg") no-repeat;
+}
+
+.contact-bg{
+  background: url("../images/6.jpg") no-repeat;
+}
+
+.contact-banner{
+  background: url("./../images/1.webp") no-repeat;
+}
+
+.checkout-banner{
+  background: url("./../images/CheckOut/banner.jpg") no-repeat;
+}
