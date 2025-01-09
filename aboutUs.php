@@ -270,6 +270,11 @@
         </div>
     </section>
 
+    <!--gem deposits-->
+    <div>
+        <img src="images/gem_deposits.jpeg" alt="gem-deposits" class="w-full">
+    </div>
+    
     <!-- Footer Section -->
     <?php
     include 'Fotter.php';
