@@ -43,7 +43,7 @@
                 <img src="images/nilmini-dp.webp" alt="dp" class="rounded-full">
             </div>
             <div id="intro-content" class="md:w-2/3 flex flex-col gap-6 p-12 justify-center black-custom-scroll">
-                <p>Hello,</p>
+                <p class="hidden">Hello,</p>
                 <h1 class="marcellus text-5xl">I'm Nilmini</h1>
                 <p>CEO & Founder, Gemmologist & Consultant at Nilmini gems & Gem laboratory Kandy (Pvt) Ltd</p>
                 <div class="flex flex-col gap-6">
@@ -52,28 +52,8 @@
                         which was formerly known as Ceylon.
                     </p>
                     <div class="flex justify-end text-blue-700">
-                        <button class="w-fit" onclick="expandIntro();">See more...</button>
+                        <a href="aboutUs.php#intro" class="w-fit">See more...</a>
                     </div>
-                </div>
-                <div id="extra-content" class="hidden flex flex-col gap-6">
-                    <p>Sri Lanka has a rich history of sapphire mining, and Ceylon Sapphires have been revered for
-                        centuries for their vibrant blue color and remarkable clarity. These gemstones are highly prized
-                        for their intense saturation, which ranges from light pastel blues to deep, velvety hues. The
-                        vivid and alluring color of Ceylon Sapphires makes them a sought-after choice for jewelry.</p>
-                    <p>In addition to their stunning blue color, Ceylon Sapphires also come in a wide range of other
-                        colors, including yellow, pink, green, and violet. These sapphires are known for their bright
-                        and lively coloration, which is often complemented by excellent transparency.</p>
-                    <p>Another characteristic that sets Ceylon Sapphires apart is their remarkable clarity. These
-                        gemstones are known for their high level of transparency, free from any significant inclusions
-                        or imperfections. This high clarity enhances their beauty and adds to their overall value.</p>
-                    <p>Ceylon Sapphires are not only prized for their beauty but also for their authenticity. Sri Lanka
-                        has a reputation for producing sapphires that are naturally mined and untreated. This means that
-                        Ceylon Sapphires are not subjected to any artificial treatments or enhancements, ensuring that
-                        their color and clarity are completely natural.</p>
-                    <p>Whether you are looking for a Royal blue sapphire or a unique colored gemstone, Ceylon Sapphires
-                        from Sri Lanka are an excellent choice. Their exceptional quality and natural beauty make them a
-                        timeless and cherished gemstone option for any jewelry piece.</p>
-                    <p>By Nilmini S. Liyana Arachchige FGA</p>
                 </div>
             </div>
         </div>
@@ -550,12 +530,4 @@
 <script src="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.2.0/dist/js/coreui.bundle.min.js"
     integrity="sha384-JdRP5GRWP6APhoVS1OM/pOKMWe7q9q8hpl+J2nhCfVJKoS+yzGtELC5REIYKrymn"
     crossorigin="anonymous"></script>
-<script>
-    function expandIntro() {
-        document.getElementById("intro-content").classList.toggle("overflow-y-scroll");
-        document.getElementById("intro-content").classList.toggle("justify-center");
-        document.getElementById("extra-content").classList.toggle("hidden");
-    }
-</script>
-
 </html>

@@ -50,7 +50,43 @@
                 About Us</h3>
         </div>
     </div>
-
+    <!--Intro-->
+    <div class="flex max-md:flex-col h-full" id="intro">
+        <div class="md:w-1/3 flex justify-center items-center p-12 md:m-12 h-full">
+            <img src="images/nilmini-dp.webp" alt="dp" class="rounded-full">
+        </div>
+        <div id="intro-content" class="md:w-2/3 flex flex-col gap-6 p-12 max-md:pb-6 max-md:pt-0 justify-center black-custom-scroll">
+            <p class="hidden">Hello,</p>
+            <h1 class="marcellus text-5xl">I'm Nilmini</h1>
+            <p>CEO & Founder, Gemmologist & Consultant at Nilmini gems & Gem laboratory Kandy (Pvt) Ltd</p>
+            <div class="flex flex-col gap-6">
+                <p>Ceylon Sapphires are one of the most famous varieties of sapphires, known for their exceptional
+                    quality and breathtaking beauty. As the name suggests, these sapphires come from Sri Lanka,
+                    which was formerly known as Ceylon.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="p-12 pt-0 flex flex-col gap-6">
+    <p>Sri Lanka has a rich history of sapphire mining, and Ceylon Sapphires have been revered for
+                    enturies for their vibrant blue color and remarkable clarity. These gemstones are highly prized
+                    for their intense saturation, which ranges from light pastel blues to deep, velvety hues. The
+                    vivid and alluring color of Ceylon Sapphires makes them a sought-after choice for jewelry.</p>
+                <p>In addition to their stunning blue color, Ceylon Sapphires also come in a wide range of other
+                    colors, including yellow, pink, green, and violet. These sapphires are known for their bright
+                    and lively coloration, which is often complemented by excellent transparency.</p>
+                <p>Another characteristic that sets Ceylon Sapphires apart is their remarkable clarity. These
+                    gemstones are known for their high level of transparency, free from any significant inclusions
+                    or imperfections. This high clarity enhances their beauty and adds to their overall value.</p>
+                <p>Ceylon Sapphires are not only prized for their beauty but also for their authenticity. Sri Lanka
+                    has a reputation for producing sapphires that are naturally mined and untreated. This means that
+                    Ceylon Sapphires are not subjected to any artificial treatments or enhancements, ensuring that
+                    their color and clarity are completely natural.</p>
+                <p>Whether you are looking for a Royal blue sapphire or a unique colored gemstone, Ceylon Sapphires
+                    from Sri Lanka are an excellent choice. Their exceptional quality and natural beauty make them a
+                    timeless and cherished gemstone option for any jewelry piece.</p>
+                <p>By Nilmini S. Liyana Arachchige FGA</p>
+    </div>
     <!-- Welcome Section -->
     <section class="h-fit flex flex-col px-6 sm:px-12 py-12 bg-[#F3F4EF] items-center gap-6 text-[#585B54] relative">
         <p class="text-sm  text-center sm:text-left">
@@ -231,37 +267,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- <div class="bg-white shadow-lg  overflow-hidden relative border-4 border-[#b99d75]">
-                <div class="relative group">
-                    <img src="images/Aboutus/ammenities/convertible twin room.jpg" alt="Image 3"
-                        class="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-105">
-                    <div class="absolute inset-0 bg-black/50"></div>
-                    <div class="absolute bottom-0 left-0 right-0 p-4 text-center h-full flex flex-col justify-between">
-                        <h3 class="marcellus mb-2 text-white text-xl ">
-                            Convertible Twin Rooms</h3>
-                        <ul class="text-white text-sm flex flex-col gap-3">
-                            <li>Twin rooms can be adjusted to accommodate triple or quadruple
-                                occupancy, perfect for families or groups.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- <div class="bg-white shadow-lg  overflow-hidden relative border-4 border-[#b99d75]">
-                <div class="relative group">
-                    <img src="images/Aboutus/ammenities/laundry and ironing.jpg" alt="Image 4"
-                        class="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-105">
-                    <div class="absolute inset-0 bg-black/50"></div>
-                    <div class="absolute bottom-0 left-0 right-0 p-4 text-center h-full flex flex-col justify-between">
-                        <h3 class="marcellus mb-2 text-white text-xl ">
-                            Laundry and Ironing Facilities</h3>
-                        <ul class="text-white text-sm flex flex-col gap-3">
-                            <li> Available upon request to meet your needs during your stay.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </section>
 
